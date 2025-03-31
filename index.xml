@@ -2,19 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>helmi.id</title>
-    <link>http://helmi.id/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on helmi.id</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Jan 2021 15:14:48 +0700</lastBuildDate><atom:link href="http://helmi.id/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Apr 2023 20:26:48 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ssh</title>
+      <link>http://localhost:1313/posts/ssh/</link>
+      <pubDate>Tue, 25 Apr 2023 20:26:48 +0700</pubDate>
+      <guid>http://localhost:1313/posts/ssh/</guid>
+      <description>&lt;h2 id=&#34;generating-ssh-ed25519-key&#34;&gt;Generating SSH ed25519 Key&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;ssh-keygen -t ed25519&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;copy-the-key-to-a-server&#34;&gt;Copy the key to a server&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;ssh-copy-id -F ~/.ssh/id_ed25519.pub user@host&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
-      <link>http://helmi.id/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Wed, 13 Jan 2021 15:14:48 +0700</pubDate>
-      
-      <guid>http://helmi.id/posts/my-first-post/</guid>
-      <description>My first hugo post</description>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;My first hugo post&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
